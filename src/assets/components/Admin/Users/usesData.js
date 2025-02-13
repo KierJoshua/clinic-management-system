@@ -1,0 +1,41 @@
+const usersData = [{
+    userName:"MainAdmin_",
+    role:"ADMINISTRATOR",
+    branch:"Main Branch",
+    accountUser:"Gandhi Punzalan",
+    status:"ACTIVE",
+    id:1,
+},
+{
+    userName:"Main_staff",
+    role:"STAFF",
+    branch:"Cabuyao branch",
+    accountUser:"staff",
+    status:"ACTIVE",
+    id:2,
+},
+{
+    userName:"Corp_Staff",
+    role:"STAFF",
+    branch:"Corporate Branch",
+    accountUser:"staff",
+    status:"ACTIVE",
+    id:3,
+},
+{
+    userName:"Main_staff",
+    role:"STAFF",
+    branch:"Main Branch",
+    accountUser:"staff",
+    status:"ACTIVE",
+    id:4,
+},
+{
+    userName:"another_Admin",
+    role:"ADMINISTRATOR",
+    branch:"Main Branch",
+    accountUser:"User Admin",
+     status:"ACTIVE",
+     id:5,
+},]
+export default usersData;
