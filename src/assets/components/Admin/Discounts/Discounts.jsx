@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
 import discountsData from "./discountsData";
 import { FiEdit } from "react-icons/fi";
-import DiscountsAdd from "./discountsAdd";
+import DiscountsAdd from "./DiscountsAdd";
 import DiscountsEdit from "./DiscountsEdit";
 import { Helmet } from "react-helmet";
 
