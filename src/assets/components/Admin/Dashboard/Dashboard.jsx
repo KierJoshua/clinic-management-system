@@ -19,7 +19,7 @@ const Dashboard = () => {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <div className="max-w-screen-lg mx-auto z-0 min-h-screen mt-20 ">
-        <h1 className=" text-2xl font-bold col-span-2 flex items-center md:ml-24 lg:ml-0">
+        <h1 className=" text-2xl font-bold col-span-2 flex items-center ml-28 md:ml-24 lg:ml-0">
           Dashboard
         </h1>
 
@@ -36,12 +36,12 @@ const Dashboard = () => {
           <DashboardBarGraph />
         </div>
 
-        <h1 className=" text-2xl font-bold col-span-2 flex items-center md:ml-24 lg:ml-0">
+        <h1 className=" text-2xl font-bold col-span-2 flex items-center ml-28 md:ml-24 lg:ml-0">
           Company Billing Overview
         </h1>
 
         <div className="overflow-x-auto">
-          <table className="table-lg w-full bg-white text-black ml-24 mt-8 lg:ml-0">
+          <table className="table-xs sm:table-sm md:table-lg w-full bg-white text-black ml-20 sm:ml-24 mt-8 lg:ml-0">
             <THeader
               header1="Client Name"
               header2="Total Billing"
