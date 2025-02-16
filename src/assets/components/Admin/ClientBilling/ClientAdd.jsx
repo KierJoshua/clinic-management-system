@@ -52,7 +52,7 @@ const ClientAdd = ({ addBillingHandler }) => {
           </div>
           <div className="card-body">
 
-          <label className="input input-bordered flex items-center gap-2">
+          <label className="text-xs sm:text-base  input input-bordered flex items-center gap-2">
               ID:
               <input
                 type="number"
@@ -64,7 +64,7 @@ const ClientAdd = ({ addBillingHandler }) => {
               />
             </label>
 
-            <label className="input input-bordered flex items-center gap-2">
+            <label className="text-xs sm:text-base  input input-bordered flex items-center gap-2">
               Client Name:
               <input
                 type="text"
@@ -77,7 +77,7 @@ const ClientAdd = ({ addBillingHandler }) => {
             </label>
 
             <div className="flex gap-1">
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base  input input-bordered gap-2 w-1/2">
                 Total Billing:
                 <input
                   type="number"
@@ -90,7 +90,7 @@ const ClientAdd = ({ addBillingHandler }) => {
                 />
               </label>
 
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base  input input-bordered gap-2 w-1/2">
                 Amount Paid:
                 <input
                   type="number"
@@ -105,7 +105,7 @@ const ClientAdd = ({ addBillingHandler }) => {
             </div>
 
             <div className="flex gap-1">
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base  input input-bordered gap-2 w-1/2">
                 Remaining Balance:
                 <input
                   type="number"
@@ -117,7 +117,7 @@ const ClientAdd = ({ addBillingHandler }) => {
                 />
               </label>
 
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base  input input-bordered gap-2 w-1/2">
                 Due Date:
                 <input
                   type="date"

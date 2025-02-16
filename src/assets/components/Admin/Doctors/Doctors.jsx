@@ -119,7 +119,7 @@ const Doctors = () => {
       <DoctorsAdd addDoctor={addDoctor}/>
       <DoctorsEdit selectedDoctor={selectedDoctor} updateDoctor={editDoctorHandler} deleteDoctor={ () => deleteDoctor(selectedDoctor)}/>
       <div className="overflow-x-auto my-16 shadow-xl rounded">
-      <table  className="table-lg w-full bg-white text-black  ml-24 lg:ml-0">
+      <table  className="table-xs sm:table-sm md:table-lg w-full bg-white text-black  ml-24 lg:ml-0">
       <thead className='bg-green-300 border-b-2 border-black font-bold'>
     <tr>
       <th>Doctor Name</th>

@@ -78,7 +78,7 @@ const BranchRecords = () => {
           deleteBranch={() => deleteBranch(selectedBranch)}
         />
         <div className="overflow-x-auto my-16 shadow-xl rounded">
-          <table className="table-lg bg-white text-black  ml-24 lg:ml-0 w-full">
+          <table className="table-xs sm:table-sm md:table-lg bg-white text-black  ml-24 lg:ml-0 w-full">
             <thead className="bg-green-300 border-b-2 border-black font-bold">
               <tr>
                 <th>Branch Name</th>

@@ -29,12 +29,12 @@ const Reports = () => {
       </Helmet>
       <div className="max-w-screen-lg mx-auto z-0 min-h-screen mt-20">
         <div className="grid grid-cols-12">
-          <h1 className="text-2xl font-bold col-span-12 sm:col-span-6 flex items-center md:ml-24 lg:ml-0">
+          <h1 className="text-2xl font-bold col-span-12 sm:col-span-6 flex items-center ml-28 md:ml-24 lg:ml-0">
             Reports
           </h1>
-          <div className="flex justify-end items-center col-span-12 sm:col-span-6">
+          <div className="flex flex-col sm:flex-row items-center col-span-12 sm:col-span-6">
             {/* Branch Dropdown */}
-            <details className="dropdown w-1/2 self-end">
+            <details className="dropdown w-1/2 mt-4 sm:mt-0 sm:self-end">
               <summary className="btn w-[95%] bg-gray-400">{dropdown}</summary>
               <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-full p-2 shadow">
                 <li onClick={() => handleSelectDropdown("Main Branch")}>
@@ -49,7 +49,7 @@ const Reports = () => {
               </ul>
             </details>
 
-            <div class="form-control w-full max-w-xs">
+            <div class="form-control w-full max-w-xs ml-24 sm:ml-0">
               <label class="label">
                 <span class="label-text">Choose a date</span>
               </label>
@@ -62,9 +62,9 @@ const Reports = () => {
         </div>
 
         {/* Filtered Products */}
-        <div className="grid grid-cols-12 gap-4 mt-5">
+        <div className="grid grid-cols-12 gap-4 mt-5 overflow-x-auto sm:overflow-x-hidden">
           <div className="col-span-12">
-            <table className="table-lg w-full bg-white text-black ml-24 lg:ml-0">
+            <table className="table-xs sm:table-sm md:table-lg w-full bg-white text-black ml-24 lg:ml-0">
               <thead className="bg-green-300 border-b-2 border-black font-bold">
                 <tr>
                   <th>Product Name</th>

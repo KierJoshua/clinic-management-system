@@ -57,7 +57,7 @@ const Inventory = () => {
         {/* Filtered Products */}
         <div className="grid grid-cols-12 gap-4 mt-5 overflow-x-auto sm:overflow-x-hidden">
           <div className="col-span-12 sm:col-span-8">
-            <table className="table-lg w-full bg-white text-black ml-24 lg:ml-0">
+            <table className="table-xs sm:table-sm md:table-lg w-full bg-white text-black ml-20 sm:ml-24 lg:ml-0">
               <thead className="bg-green-300 border-b-2 border-black font-bold">
                 <tr>
                   <th>Product Name</th>
@@ -73,7 +73,7 @@ const Inventory = () => {
                       <td>{product.stocks}</td>
                       <td>
                         <span
-                          className={`px-3 py-2 rounded ${
+                          className={`text-sm px-2 sm:px-3 sm:py-2 rounded ${
                             product.stocks <= 0
                               ? "bg-black text-white"
                               : product.stocks > 5
@@ -99,7 +99,7 @@ const Inventory = () => {
             </table>
           </div>
           <div className="col-span-12 sm:col-span-4">
-            <table className="table-lg w-full bg-white text-black  ml-24 lg:ml-0 mb-5">
+            <table className="table-lg w-full bg-white text-black ml-20 sm:ml-24 lg:ml-0 mb-5">
               <thead className="bg-red-400 border-b-2 border-black font-bold">
                 <th colSpan="3">Low Stocks</th>
               </thead>
@@ -130,7 +130,7 @@ const Inventory = () => {
               </tbody>
             </table>
 
-            <table className="table-lg w-full bg-white text-black  ml-24 lg:ml-0">
+            <table className="table-lg w-full bg-white text-black ml-20 sm:ml-24 lg:ml-0">
               <thead className="bg-red-400 border-b-2 border-black font-bold">
                 <th colSpan="3">Stock Requests</th>
               </thead>

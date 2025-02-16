@@ -79,7 +79,7 @@ const ClientBilling = () => {
       <ClientEdit selectedClient={selectedClient} updateBillingHandler={updateBillingHandler} handleDelete={() => deleteBillingHandler(selectedClient)}/>
       <Outlet />
       <div className="overflow-x-auto my-16 shadow-xl rounded">
-        <table className="table-lg w-full bg-white text-black  ml-24 lg:ml-0">
+        <table className="table-xs ml-20 sm:table-sm md:table-lg w-full bg-white text-black  sm:ml-24 lg:ml-0">
           <THeader
             header1="Client Name"
             header2="Total Billing"

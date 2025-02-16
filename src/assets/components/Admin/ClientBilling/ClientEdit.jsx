@@ -58,7 +58,7 @@ const ClientEdit = ({ selectedClient, updateBillingHandler, handleDelete }) => {
             <h1 className="py-2 px-3 mx-auto font-bold">Edit Billing</h1>
           </div>
           <div className="card-body">
-            <label className="input input-bordered flex items-center gap-2">
+            <label className="text-xs sm:text-base input input-bordered flex items-center gap-2">
               Client Name:
               <input
                 type="text"
@@ -71,7 +71,7 @@ const ClientEdit = ({ selectedClient, updateBillingHandler, handleDelete }) => {
             </label>
 
             <div className="flex gap-1">
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base input input-bordered gap-2 w-1/2">
                 Total Billing:
                 <input
                   type="number"
@@ -84,7 +84,7 @@ const ClientEdit = ({ selectedClient, updateBillingHandler, handleDelete }) => {
                 />
               </label>
 
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base input input-bordered gap-2 w-1/2">
                 Amount Paid:
                 <input
                   type="number"
@@ -99,7 +99,7 @@ const ClientEdit = ({ selectedClient, updateBillingHandler, handleDelete }) => {
             </div>
 
             <div className="flex gap-1">
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base input input-bordered gap-2 w-1/2">
                 Remaining Balance:
                 <input
                   type="number"
@@ -111,7 +111,7 @@ const ClientEdit = ({ selectedClient, updateBillingHandler, handleDelete }) => {
                 />
               </label>
 
-              <label className="input input-bordered gap-2 w-1/2">
+              <label className="text-xs sm:text-base input input-bordered gap-2 w-1/2">
                 Due Date:
                 <input
                   type="date"
